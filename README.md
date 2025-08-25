@@ -1,10 +1,10 @@
 # Phantom-agents-Fog-and-Glare-Safety-Assistant-with-Edge-AI-and-Digital-Twin-Integration
 1.TITLE - Smart Fog and Glare Safety Assistant with Edge AI and Digital Twin
 
-2.Overview
+2.Overview:
 This project is a real-time road safety solution designed to improve driving visibility and reduce accident risks caused by fog, glare, and driver fatigue. Using edge AI, it processes multi-spectral camera inputs to detect obstacles, monitor driver alertness, and provide instant warnings. A digital twin component logs critical events for later analysis, enabling continuous improvement and integration with fleet safety systems.
 
-3.Tech Stack
+3.Tech Stack:
 
 Hardware:
 Dual Camera (Visible + Thermal)
@@ -19,14 +19,14 @@ TensorFlow Lite / TensorRT for optimized inference
 SQLite for offline digital twin event storage
 PyQt5 for GUI and HUD interface
 
-4.Setup
+4.Setup:
 Mount the dual camera system on the vehicle dashboard or windshield.
 Connect the cameras to the edge AI device (Jetson Nano / Raspberry Pi with Coral TPU).
 Install required Python libraries and dependencies (requirements.txt).
 Launch the application to start real-time hazard detection and logging.
 View alerts directly on the HUD display while driving.
 
-5.Features
+5.Features:
 Enhanced Visibility: Fusion of thermal and visible imaging to mitigate fog and glare.
 Driver Fatigue Monitoring: Detects blink rate, gaze direction, and head movements.
 Real-Time Alerts: Provides immediate warnings via HUD display and audio signals.
@@ -34,7 +34,7 @@ Offline Operation: Works without internet connectivity, ideal for remote areas.
 Digital Twin Event Logging: Stores critical events for analysis and reporting.
 Cost-Effective: Retrofittable solution suitable for existing vehicles.
 
-6.Technical Workflow
+6.Technical Workflow:
 Input Acquisition: Captures frames from visible and thermal cameras.
 Pre-Processing: Aligns and fuses multi-spectral data using OpenCV.
 AI Inference:
